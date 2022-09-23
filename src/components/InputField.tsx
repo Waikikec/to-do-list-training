@@ -9,7 +9,6 @@ interface InputProps {
 
 const InputField = ({ todo, setTodo, handleAddTask }: InputProps) => {
   const inputRef = useRef<HTMLInputElement>(null);
-  console.log(inputRef);
 
   return (
     <form
